@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class InputSend : MonoBehaviour
 {
     public InputField InputField;
+    public GameObject controller;
 
     void Update()
     {
@@ -22,6 +23,7 @@ public class InputSend : MonoBehaviour
         if (InputField.text != "")
         {
             Debug.Log(InputField.text + " " + Input.location.lastData.latitude + " " + Input.location.lastData.longitude); //Send to firebase
+            controller.GetComponent<Run>().CreateTextMessage(InputField.text);
             InputField.text = "";
         }
 

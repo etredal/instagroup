@@ -795,6 +795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InputField: {fileID: 108855911}
+  controller: {fileID: 833597238}
 --- !u!1 &833597238
 GameObject:
   m_ObjectHideFlags: 0

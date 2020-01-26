@@ -1,0 +1,29 @@
+{
+    "buildPath": "Resources/GameDBs/Binary",
+    "downloadServer": "https://s3-eu-west-1.amazonaws.com/worldsadrift",
+    "exportPath": "Source/GameDB",
+    "gameDBPaths": [
+        "Resources/GameDBs/gameDB.json",
+        "Resources/GameDBs/WorldsAdriftDB.json",
+        "Resources/GameDBs/LangoliersData.json",
+        "Resources/GameDBs/main.json"
+    ],
+    "gameDBServer": "http://localhost:8000",
+    "googleSheets": {
+        "Main": {
+            "sheetID": null,
+            "webAppUrl": ""
+        }
+    },
+    "importedEnums": [
+        "Days",
+        "Colors",
+        "Names",
+        "Rarity",
+        "InputAnalyser+InputType"
+    ],
+    "importedPrefabs": [
+        "Assets/Resources/Prefabs/MyPrefab2.prefab",
+        "Assets/Resources/Prefabs/MyPrefab1.prefab"
+    ]
+}
